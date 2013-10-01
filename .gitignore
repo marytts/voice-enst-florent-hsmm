@@ -1,0 +1,16 @@
+# Maven
+target/
+
+# MaryTTS
+log/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# OSX
+.DS_Store
+
+# Git
+*.orig
