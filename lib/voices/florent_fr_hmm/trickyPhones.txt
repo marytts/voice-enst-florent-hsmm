@@ -1,0 +1,14 @@
+0 fr0
+2 fr1
+3 fr2
+9 fr3
+9~ fr4
+@ fr5
+E fr6
+J fr7
+S fr8
+Z fr9
+_ fr10
+a~ fr11
+e~ fr12
+o~ fr13
