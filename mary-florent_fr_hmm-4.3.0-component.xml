@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <marytts-install xmlns="http://mary.dfki.de/installer">
-    <voice gender="male" locale="fr" name="florent_fr_hmm" type="hsmm" version="4.3.0">
+    <voice gender="male" locale="fr" name="enst-florent-hsmm" type="hsmm" version="4.3.0">
         <description>A male french Hidden semi-Markov model voice</description>
         <license href="http://mary.dfki.de/download/by-nd-3.0.html"/>
         <package filename="mary-florent_fr_hmm-4.3.0.zip"
