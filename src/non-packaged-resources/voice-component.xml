@@ -2,7 +2,7 @@
 <marytts-install xmlns="http://mary.dfki.de/installer">
     <voice gender="male" locale="fr" name="${voicename}"
         type="hsmm" version="${project.version}">
-        <description></description>
+        <description>A male French hidden semi-Markov model voice, built at Télécom ParisTech (ENST).</description>
         <license href="http://mary.dfki.de/download/by-nd-3.0.html"/>
         <package filename="${project.build.finalName}.zip"
             md5sum="${zip_md5}" size="${zip_size}">
