@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <marytts-install xmlns="http://mary.dfki.de/installer">
-    <voice gender="male" locale="fr" name="enst-florent-hsmm"
-        type="unit selection" version="5.1-SNAPSHOT">
+    <voice gender="male" locale="fr" name="${voicename}"
+        type="hsmm" version="${project.version}">
         <description></description>
         <license href="http://mary.dfki.de/download/by-nd-3.0.html"/>
-        <package filename="voice-enst-florent-hsmm-5.1-SNAPSHOT.zip"
+        <package filename="${project.build.finalName}.zip"
             md5sum="${zip_md5}" size="${zip_size}">
-            <location href="http://mary.dfki.de/download/5.1-SNAPSHOT/"/>
+            <location href="http://mary.dfki.de/download/${project.version}/"/>
         </package>
-        <depends language="fr" version="5.1-SNAPSHOT"/>
+        <depends language="fr" version="${project.version}"/>
     </voice>
 </marytts-install>
